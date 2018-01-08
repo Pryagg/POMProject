@@ -41,6 +41,7 @@ public class testbase
 	{
 		System.out.println(" abc ");
 	}
+	
 	public void SetBrowserSettings()
 	{
 		driver.manage().window().maximize();

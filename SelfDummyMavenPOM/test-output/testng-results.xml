@@ -2,20 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="77" started-at="2017-11-29T03:57:01Z" finished-at="2017-11-29T03:57:01Z">
+  <suite name="Default suite" duration-ms="33054" started-at="2018-01-08T19:51:18Z" finished-at="2018-01-08T19:51:51Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="77" started-at="2017-11-29T03:57:01Z" finished-at="2017-11-29T03:57:01Z">
-      <class name="testcases.testbase">
-        <test-method status="PASS" signature="Init()[pri:0, instance:testcases.testbase@64bfbc86]" name="Init" is-config="true" duration-ms="19934" started-at="2017-11-29T16:56:41Z" finished-at="2017-11-29T16:57:01Z">
+    <test name="Default test" duration-ms="33054" started-at="2018-01-08T19:51:18Z" finished-at="2018-01-08T19:51:51Z">
+      <class name="testcases.AddToCart">
+        <test-method status="PASS" signature="meth1()[pri:0, instance:testcases.AddToCart@3159c4b8]" name="meth1" duration-ms="32995" started-at="2018-01-09T08:51:18Z" finished-at="2018-01-09T08:51:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Init -->
-        <test-method status="PASS" signature="ablmethod()[pri:0, instance:testcases.testbase@64bfbc86]" name="ablmethod" duration-ms="13" started-at="2017-11-29T16:57:01Z" finished-at="2017-11-29T16:57:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ablmethod -->
-      </class> <!-- testcases.testbase -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- meth1 -->
+      </class> <!-- testcases.AddToCart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

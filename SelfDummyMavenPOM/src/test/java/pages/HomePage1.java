@@ -5,18 +5,33 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import testcases.testbase;
 import datatable.ProductName_ExcelSheet;
 
-public class HomePage1 
+public class HomePage1 extends testbase 
 {
-	//Page factory concept by Page Oject Design Pattern
+	//Page factory concept by Page Object Design Pattern
 	
-		final WebDriver driver ;
+		WebDriver driver ;
+		
+		@Override
+		public void TearDown() {
+			// TODO Auto-generated method stub
+			System.out.println();
+			super.TearDown();
+		}
 		
 		//Page Object constructor which passes the driver context forward
+		public HomePage1() 
+		{
+			System.out.println("Default Cons");
+		}
+		
 		public HomePage1(WebDriver driver) 
 		{
+			System.out.println("Default Cons");
 			this.driver = driver;
+			//PageFactory.initElements(driver, this);
 		}
 		
 		@FindBy(id="twotabsearchtextbox")
@@ -30,6 +45,7 @@ public class HomePage1
 		{
 			try
 			{
+				//driver.
 	
 				SearchButton.click();	
 				
